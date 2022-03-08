@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 User Can Acces Website
     [Documentation]  This is some basic information about the test
     [Tags]  Test 1
-    Open Browser    about:blank chrome
+    Open Browser  about:blank  firefox
     Go to   https://www.mediamarkt.se
-    Wait Until Page Contains    Om Mediamarkt
+    Wait Until Page Contains    Kampanjer
     Close Browser
